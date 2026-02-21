@@ -85,17 +85,17 @@ Frecuencia de almacenamiento: **mensual por estado**.
 git clone <repo-url>
 cd <repo>
 
-###2. Instalar dependencias
+### 2. Instalar dependencias
 pip install pandas pymongo requests python-dotenv certifi
 
-###3. Configurar variables de entorno
+### 3. Configurar variables de entorno
 
 Crear archivo .env con:
 
 MONGODB_URI=tu_uri_mongodb
 DB_NAME=nombre_base_datos
 COLLECTION_NAME=nombre_coleccion
-###Uso
+### Uso
 
 Ejecutar el script:
 
