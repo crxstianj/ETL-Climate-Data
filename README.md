@@ -70,7 +70,6 @@ Frecuencia de almacenamiento: **mensual por estado**.
 
 ## Estructura del proyecto
 
-
 .
 ├── etl_weather.py
 ├── .env
@@ -83,7 +82,6 @@ Frecuencia de almacenamiento: **mensual por estado**.
 
 ### 1. Clonar repositorio
 
-```bash
 git clone <repo-url>
 cd <repo>
 2. Instalar dependencias
