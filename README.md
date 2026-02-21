@@ -70,10 +70,12 @@ Frecuencia de almacenamiento: **mensual por estado**.
 
 ## Estructura del proyecto
 
-.  
-├── etl_weather.py  
-├── .env  
+```
+.
+├── etl_weather.py
+├── .env
 └── README.md
+```
 
 
 ---
@@ -82,34 +84,44 @@ Frecuencia de almacenamiento: **mensual por estado**.
 
 ### 1. Clonar repositorio
 
+```
 git clone <repo-url>
 cd <repo>
+```
 
 ### 2. Instalar dependencias
+
+```
 pip install pandas pymongo requests python-dotenv certifi
+```
 
 ### 3. Configurar variables de entorno
 
-Crear archivo .env con:
+Crear archivo `.env` con:
 
-MONGODB_URI=tu_uri_mongodb  
-DB_NAME=nombre_base_datos  
+```
+MONGODB_URI=tu_uri_mongodb
+DB_NAME=nombre_base_datos
 COLLECTION_NAME=nombre_coleccion
-### Uso
+```
+
+## Uso
 
 Ejecutar el script:
 
+```
 python etl_weather.py
+```
 
 El programa:
 
-obtiene datos desde 2020 hasta la fecha actual
+- obtiene datos desde 2020 hasta la fecha actual
+- procesa información de todos los estados de México
+- actualiza registros automáticamente en MongoDB
 
-procesa información de todos los estados de México
+## Ejemplo de registro almacenado
 
-actualiza registros automáticamente en MongoDB
-
-Ejemplo de registro almacenado
+```json
 {
   "estado": "Guanajuato",
   "fecha": "2024-05",
@@ -118,17 +130,7 @@ Ejemplo de registro almacenado
   "temperatura_promedio": 21.7,
   "humedad_promedio": 65.1
 }
-Posibles mejoras
-
-Contenerización con Docker
-
-Orquestación del pipeline
-
-API para consulta de datos
-
-Visualización de información
-
-Programación automática de ejecuciones
+```
 
 Autor
 
