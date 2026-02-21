@@ -71,8 +71,11 @@ Frecuencia de almacenamiento: **mensual por estado**.
 ## Estructura del proyecto
 
 .
+
 ├── etl_weather.py
+
 ├── .env
+
 └── README.md
 
 
@@ -84,8 +87,10 @@ Frecuencia de almacenamiento: **mensual por estado**.
 
 git clone <repo-url>
 cd <repo>
+
 2. Instalar dependencias
 pip install pandas pymongo requests python-dotenv certifi
+
 3. Configurar variables de entorno
 
 Crear archivo .env con:
