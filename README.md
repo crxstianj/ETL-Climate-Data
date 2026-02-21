@@ -1,6 +1,6 @@
 # ETL de Datos Climáticos de México
 
-Pipeline ETL en Python para extraer, transformar y almacenar datos climáticos históricos de los estados de México utilizando una API externa y MongoDB.
+Pipeline ETL en Python para extraer, transformar y almacenar datos climáticos históricos de los estados de México utilizando una API externa (open meteo) y MongoDB.
 
 ## Descripción
 
