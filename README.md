@@ -110,7 +110,7 @@ COLLECTION_NAME=nombre_coleccion
 Ejecutar el script:
 
 ```
-python etl_weather.py
+python ETL.py
 ```
 
 El programa:
@@ -132,6 +132,5 @@ El programa:
 }
 ```
 
-Autor
-
+Autor  
 Cristian Jesús Silva Medel
