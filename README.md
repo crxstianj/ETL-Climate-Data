@@ -10,15 +10,6 @@ El script procesa información climática de los estados de México desde 2020 h
 
 ---
 
-## Objetivo
-
-- Obtener datos climáticos históricos de los estados de México.
-- Transformar datos diarios en métricas mensuales.
-- Almacenar datos estructurados en MongoDB.
-- Mantener actualización incremental automática.
-
----
-
 ## Flujo del Pipeline
 
 
