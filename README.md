@@ -18,22 +18,15 @@ API climática → Extracción → Transformación → Agregación mensual → M
 
 ### Extracción
 - Consumo de API mediante solicitudes HTTP.
-- Obtención de datos diarios por estado.
-- Validación de respuesta de la API.
 
 ### Transformación
 - Limpieza y validación de datos.
-- Conversión a DataFrame con Pandas.
-- Agregación mensual de:
-  - temperatura máxima promedio
-  - temperatura mínima promedio
-  - temperatura media
-  - humedad relativa promedio
+- Conversión temporal.
 
 ### Carga
 - Inserción y actualización de datos en MongoDB.
-- Uso de `upsert` para evitar duplicados.
-- Actualización incremental por estado y fecha.
+- Manejo para evitar duplicados.
+
 
 ---
 
