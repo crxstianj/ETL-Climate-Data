@@ -41,17 +41,6 @@ API climática → Extracción → Transformación → Agregación mensual → M
 
 ---
 
-## Variables procesadas
-
-- Temperatura máxima
-- Temperatura mínima
-- Temperatura promedio
-- Humedad relativa promedio
-
-Frecuencia de almacenamiento: **mensual por estado**.
-
----
-
 ## Estructura del proyecto
 
 ```
@@ -61,6 +50,7 @@ Frecuencia de almacenamiento: **mensual por estado**.
 └── README.md
 ```
 
+> Nota: Asegúrate de configurar el archivo `.env` con tus credenciales antes de ejecutar el proyecto.
 
 ---
 
